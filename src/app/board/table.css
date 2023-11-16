@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+table {
+    background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+thead {
+    border-top : 2px solid #757575;
+    border-bottom : 1px solid #959595;
+}
+
+thead > tr > th {
+    border-bottom: 1px solid #959595;
+    text-align: center;
+    padding : 10px 5px;
+
+    color : #000;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size : 13px;
+}
+
+tbody {
+    border-bottom: 1px solid #D5D5D5;
+}
+
+tbody > tr{
+    background: #FFF8EC;
+}
+
+tbody > tr > td{
+    border-top : 1px solid #ededed;
+    padding : 7px 5px;
+
+    text-align: center;
+    font-size : 12px;
+}

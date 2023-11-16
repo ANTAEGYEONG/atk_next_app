@@ -1,0 +1,37 @@
+@media (min-width:912px){
+    .arrorw{margin-top:16px; text-align: center; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+    .page_num{overflow: hidden;}
+    .page_num li{float: left; margin-left: 28px;}
+    .page_num li:first-child{margin-left: 0px;}
+    .one_arrow{margin: 0 20px;}
+    .btn_arrow img{width: 12px; height: 10px;}
+    .one_arrow img{width: 6px; height: 10px;}
+    .page_num li.active a{color:#326CFF;}
+
+    .double_arrow_left{background: url(/images/left_arrow_double.png); background-size: contain; width: 12px; height: 10px;}
+    .one_arrow_left{background: url(/images/left_arrow.png); background-size: contain; width: 6px; height: 10px;}
+    .one_arrow_right{background: url(/images/right_arrow.png); background-size: contain; width: 6px; height: 10px;}
+    .double_arrow_right{background: url(/images/right_arrow_double.png); background-size: contain; width: 12px; height: 10px;}
+    /* .double_arrow_left.none_active{background: url(@/assets/images/left_arrow_double_none.png); background-size: contain; width: 12px; height: 10px;}
+    .one_arrow_left.none_active{background: url(@/assets/images/left_arrow_none.png); background-size: contain; width: 6px; height: 10px;}
+    .one_arrow_right.none_active{background: url(@/assets/images/right_arrow_none.png); background-size: contain; width: 6px; height: 10px;}
+    .double_arrow_right.none_active{background: url(@/assets/images/right_arrow_double_none.png); background-size: contain; width: 12px; height: 10px;} */
+}
+@media all and (max-width:911px){
+    .arrorw{margin-top:16px; text-align: center; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+    .page_num{overflow: hidden;}
+    .page_num li{float: left; margin-left: 28px;}
+    .page_num li:first-child{margin-left: 0px;}
+    .one_arrow{margin: 0 20px;}
+    .btn_arrow img{width: 12px; height: 10px;}
+    .one_arrow img{width: 6px; height: 10px;}
+    .page_num li.active a{color:#326CFF;}
+    .double_arrow_left{background: url(/images/left_arrow_double.png); background-size: contain; width: 12px; height: 10px;}
+    .one_arrow_left{background: url(/images/left_arrow.png); background-size: contain; width: 6px; height: 10px;}
+    .one_arrow_right{background: url(/images/right_arrow.png); background-size: contain; width: 6px; height: 10px;}
+    .double_arrow_right{background: url(/images/right_arrow_double.png); background-size: contain; width: 12px; height: 10px;}
+    /* .double_arrow_left.none_active{background: url(@/assets/images/left_arrow_double_none.png); background-size: contain; width: 12px; height: 10px;}
+    .one_arrow_left.none_active{background: url(@/assets/images/left_arrow_none.png); background-size: contain; width: 6px; height: 10px;}
+    .one_arrow_right.none_active{background: url(@/assets/images/right_arrow_none.png); background-size: contain; width: 6px; height: 10px;}
+    .double_arrow_right.none_active{background: url(@/assets/images/right_arrow_double_none.png); background-size: contain; width: 12px; height: 10px;} */
+}

@@ -1,0 +1,374 @@
+{
+  "productlist" : [
+    {
+      "id" : 1,
+      "image" : "/images/food1.png",
+      "title" : "파스타",
+      "price" : 10000
+    },
+    {
+      "id" : 2,
+      "image" : "/images/bike.png",
+      "title" : "바이크",
+      "price" : 3000000
+    },
+    {
+      "id" : 3,
+      "image" : "/images/bottle.png",
+      "title" : "텀블러",
+      "price" : 20000
+    },
+    {
+      "id" : 4,
+      "image" : "/images/camera.png",
+      "title" : "카메라",
+      "price" : 600000
+    },
+    {
+      "id" : 5,
+      "image" : "/images/charge_cable.png",
+      "title" : "충전케이블",
+      "price" : 5000
+    },
+    {
+      "id" : 6,
+      "image" : "/images/fruit.png",
+      "title" : "과일",
+      "price" : 25000
+    },
+    {
+      "id" : 7,
+      "image" : "/images/helmet.png",
+      "title" : "헬멧",
+      "price" : 50000
+    },
+    {
+      "id" : 8,
+      "image" : "/images/phone.png",
+      "title" : "아이폰",
+      "price" : 300000
+    },
+    {
+      "id" : 9,
+      "image" : "/images/rider_phonecase.png",
+      "title" : "라이더용 폰케이스",
+      "price" : 20000
+    },
+    {
+      "id" : 10,
+      "image" : "/images/running-shoes.png",
+      "title" : "운동화",
+      "price" : 70000
+    },
+    {
+      "id" : 11,
+      "image" : "/images/sunglass.png",
+      "title" : "선글라스",
+      "price" : 30000
+    },
+    {
+      "id" : 12,
+      "image" : "/images/vegetables.png",
+      "title" : "야채",
+      "price" : 35000
+    }
+  ],
+  "menulist" : [
+    {
+      "id" : 100,
+      "name" : "공지사항",
+      "url" : "/board",
+      "lowerlist" : []
+    },
+    {
+      "id" : 200,
+      "name" : "의류",
+      "url" : "/clothes",
+      "lowerlist" : [
+        {
+          "id" : 201,
+          "subname" : "조끼",
+          "url" : "/board"
+        },
+        {
+          "id" : 202,
+          "subname" : "우의세트",
+          "url" : "/board"
+        }
+      ]
+    },
+    {
+      "id" : 300,
+      "name" : "가방",
+      "url" : "/bag",
+      "lowerlist" : []
+    },
+    {
+      "id" : 400,
+      "name" : "바이크용품",
+      "url" : "/bike",
+      "lowerlist" : [
+        {
+          "id" : 401,
+          "subname" : "헬멧",
+          "url" : "/board"
+        },
+        {
+          "id" : 402,
+          "subname" : "PCX125",
+          "url" : "/board"
+        },
+        {
+          "id" : 403,
+          "subname" : "악세서리",
+          "url" : "/board"
+        },
+        {
+          "id" : 404,
+          "subname" : "블루투스",
+          "url" : "/board"
+        }
+      ]
+    },
+    {
+      "id" : 500,
+      "name" : "휴대폰",
+      "url" : "/phone",
+      "lowerlist" : [
+        {
+          "id" : 501,
+          "subname" : "휴대폰",
+          "url" : "/board"
+        },
+        {
+          "id" : 502,
+          "subname" : "휴대폰케이스",
+          "url" : "/board"
+        },
+        {
+          "id" : 503,
+          "subname" : "블루투스",
+          "url" : "/board"
+        },
+        {
+          "id" : 504,
+          "subname" : "거치대",
+          "url" : "/board"
+        },
+        {
+          "id" : 505,
+          "subname" : "악세서리",
+          "url" : "/board"
+        }
+      ]
+    },
+    {
+      "id" : 600,
+      "name" : "기타용품",
+      "url" : "/etc",
+      "lowerlist" : []
+    }
+  ],
+
+  "noticelist" : [
+    {
+      "id" : 1,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 2,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 3,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 4,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 5,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 6,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 7,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 8,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 9,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 10,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 11,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 12,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 13,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 14,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 15,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 16,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 17,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 18,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 19,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 20,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 21,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 22,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 23,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 24,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 25,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    },
+    {
+      "id" : 26,
+      "title" : "지점몰 안내",
+      "name" : "관리자",
+      "date" : "2023.10.24",
+      "view" : 12345
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
